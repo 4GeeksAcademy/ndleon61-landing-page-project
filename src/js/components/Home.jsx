@@ -5,7 +5,9 @@ import {Card, Jumbotron, Navbar} from './index';
 const Home = () => {
 	return (
 		<div className = "container">
-			<h1>Is this working?</h1>
+			<Jumbotron />
+			<Card />
+			<Navbar />
 		</div>
 			
 	);

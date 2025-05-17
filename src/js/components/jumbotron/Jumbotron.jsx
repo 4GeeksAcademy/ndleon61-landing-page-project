@@ -3,10 +3,10 @@ import './jumbotron.css';
 
 export const Jumbotron = () => {
   return (
-    <div>
-      <h1>What is New! </h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magnam reiciendis amet inventore earum exercitationem corrupti autem saepe molestias magni omnis qui aliquid iure incidunt debitis fugiat distinctio, placeat delectus.</p>
-      <button className = "btn btn-primary" id = "learnButton" >Learn more here</button>
+    <div className ='jumbotron'>
+      <h1>Hi, I’m David — a Full Stack Developer in Progress... </h1>
+      <p>Currently learning full stack development at 4Geeks Academy, building responsive and dynamic websites with HTML, CSS, JavaScript, and React.</p>
+      <button className = "btn btn-primary" id = "learnButton" >View my work!</button>
     </div>
   )
 }

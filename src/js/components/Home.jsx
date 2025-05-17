@@ -1,16 +1,17 @@
 import React from "react";
 import {Card, Jumbotron, Navbar} from './index';
+import './home.css';
 
 //create your first component
-const Home = () => {
+function Home() {
 	return (
-		<div className = "container">
-			<Jumbotron />
-			<Card />
-			<Navbar />
-		</div>
-			
+	<div container-fluid>
+		<Navbar/>
+		<Jumbotron/>
+		<Card/>	
+	</div>
+
 	);
-};
+}
 
 export default Home;

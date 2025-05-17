@@ -1,15 +1,13 @@
-#learnButton {
-    width: auto;
-    box-shadow: 0 0 10px white;
-}
-h1{
-    height: 100px;
-    margin-top: 30px
-}
-.container{
-    background-image: url(https://images.ctfassets.net/nnkxuzam4k38/2SvDjcgyav5C1DOb79JKXl/d3b06db5bb6bdb4ab237f666b5b4980e/compute-ea4c57a4.png?w=3840&q=60&fm=webp);
-    background-repeat: no-repeat;
-    background-size: contain;
-    color: white;
-  
+.jumbotron {
+  width: 100%;
+  padding: 2rem 1rem;
+  margin-bottom: 1rem;
+  height: auto; 
+  background-color: lightgray;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
 }

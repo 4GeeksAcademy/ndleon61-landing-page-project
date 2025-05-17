@@ -1,3 +1,7 @@
+img{
+  height: 150.141px;
+}
+
 #cards {
   display: flex;
   flex-direction: row;        
@@ -5,12 +9,25 @@
   align-items: stretch;
   flex-wrap: wrap;            
   text-align: center;
-  gap: 1rem;                   
+  gap: 1rem;
+  background-color: transparent; 
+  height: auto;  
+                
 }
 
 .card {
   width: 18rem;
   margin: 1rem;
+  background-color: transparent;
+  backdrop-filter: blur(90px);
+  color: white;
+  height: auto;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+  border: 0.1px solid rgba(255, 255, 255, 0.53);  
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover{
+  transform: scale(1.05);
 }
 
 @media (max-width: 768px) {

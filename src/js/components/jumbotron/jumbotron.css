@@ -3,7 +3,9 @@
   padding: 2rem 1rem;
   margin-bottom: 1rem;
   height: auto; 
-  background-color: lightgray;
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  color: white;
 
   display: flex;
   flex-direction: column;

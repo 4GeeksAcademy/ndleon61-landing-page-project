@@ -1,0 +1,17 @@
+.card {
+    height: auto;
+    width: 400px;
+    
+}
+
+.card img {
+    height: 200px;
+    box-shadow: 0 0 10px white;
+
+}
+
+.card a {
+    display: flex;
+    width: auto;
+    justify-content: center;
+}

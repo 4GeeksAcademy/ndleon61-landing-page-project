@@ -1,5 +1,7 @@
 import React from "react";
-import { Card, Jumbotron, Navbar } from './index';
+import Navbar from "./navbar/Navbar";
+import Jumbotron from "./jumbotron/Jumbotron";
+import CardContainer from "./cardContainer/CardContainer";
 import './home.css';
 
 function Home() {
@@ -7,7 +9,7 @@ function Home() {
     <div className="container-fluid">
       <Navbar />
       <Jumbotron />
-      <Card />
+      <CardContainer/>
     </div>
   );
 }
